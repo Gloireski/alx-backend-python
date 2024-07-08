@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# 0-basic_async_syntax.py
+""" define caroutine """
 import random
 import asyncio
 
