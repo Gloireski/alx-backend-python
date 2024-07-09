@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/python/env python3
 """ define async_generator """
 import asyncio
 import random
