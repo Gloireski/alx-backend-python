@@ -11,5 +11,6 @@ async def async_generator() -> List[int]:
         & yield random numberi btw 0 & 10
     """
     for _ in range(10):
-        await asyncio.sleep(1)
         yield random.uniform(0, 10)
+        await asyncio.sleep(1)
+        # yield random.uniform(0, 10)
